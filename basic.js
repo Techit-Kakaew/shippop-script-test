@@ -14,7 +14,8 @@ const fullname = (firstName, lastName) => {
     return `Hello Shippop, My name is ${firstName === 'Shippop' ? 'Best Online Shipping Platform' : firstName} ${lastName}`
 }
 
-console.log(fullname('Shippop', 'lastname'))
+console.log(fullname('Techit', 'Kakaew'))
+console.log(fullname('Shippop', 'Test'))
 
 /* ------------------------------------------------------------------------------------------------ */
 
@@ -27,7 +28,7 @@ let mockArrayOfObject = [
     },
     {
         id: 2,
-        name: 'roronoa zoro'
+        name: 'Roronoa Zoro'
     }
 ]
 
